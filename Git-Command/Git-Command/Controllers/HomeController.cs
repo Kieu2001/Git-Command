@@ -16,6 +16,8 @@ namespace Git_Command.Controllers
             +Nếu muốn chọn tập cụ thể thì sử dụng lênh: git add 
          - Git fetch:
          - Git amend:
+           Nếu muốn sửa đổi commit cũ mà không muốn tọa 1 commit mới thì sử dụng lệnh:
+           git add . -> git commit --amend -> git push --force origin <Branch name>
          - Git checkout:
            Nếu muốn chuyển từ nhánh A sang nhánh B thì dùng câu lệnh: git checkout B
            Note: Trong trường hợp nhánh A đang có sự thay đổi mà chưa muốn commit
